@@ -39,13 +39,13 @@ const App = () => {
     })
   return (
     <div id="main">
-      <ul>
+      <ol>
         {
           indianCities.map((val,ind) =>{
             return <li key ={ind}>{val.name}</li>
           })
         }
-      </ul>
+      </ol>
     </div>
   )
 }
